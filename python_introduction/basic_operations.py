@@ -1,5 +1,6 @@
 # carry out basic arithmetic opearations
-number1, number2 = 10, 5
+number1 = 10
+number2 = 5
 
 sum1 = number1 + number2
 sub = number1 - number2
