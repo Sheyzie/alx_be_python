@@ -12,7 +12,7 @@ def convert_to_fahrenheit(celsius):
   print(f'{celsius}\N{DEGREE SIGN}C is {temp}\N{DEGREE SIGN}F')
 
 
-temp = float(input('Enter temperature to convert: '))
+temp = float(input('Enter temperature to convert:'))
 unit = (input('Is this temperature in Celsius or Fahrenheit? (C/F): '))
 
 if unit.upper() == 'C':
