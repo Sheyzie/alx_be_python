@@ -23,7 +23,9 @@ class Book:
       return f'The book title {self.title} is returned to Library'
 
 class Library:
-  _books = []
+
+  def __init__(self):
+    self._books = []
 
   def add_book(self, book):
     self._books.append(book)
