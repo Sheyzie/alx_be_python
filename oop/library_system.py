@@ -27,7 +27,7 @@ class Library:
   def list_books(self):
     for book in self.books:
       if hasattr(book, 'file_size'):
-        print(f'{book.__class__.__name__}: {book.title} by {book.author}, File Size: {book.file_size}')
+        print(f'{book.__class__.__name__}: {book.title} by {book.author}, File Size: {book.file_size}KB')
       elif hasattr(book, 'page_count'):
         print(f'{book.__class__.__name__}: {book.title} by {book.author}, Page Count: {book.page_count}')
       else:
